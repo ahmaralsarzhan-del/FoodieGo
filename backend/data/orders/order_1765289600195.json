@@ -1,0 +1,22 @@
+{
+  "id": "order_1765289600195",
+  "items": [
+    {
+      "id": 1,
+      "category": "Main Course",
+      "name": "Classic Beef Burger",
+      "price": 45,
+      "available": true
+    },
+    {
+      "id": 2,
+      "category": "Main Course",
+      "name": "Italian tomato pasta",
+      "price": 38,
+      "available": true
+    }
+  ],
+  "total": 83,
+  "status": "Accepted",
+  "timestamp": "2025-12-09T14:13:20.195Z"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "order_1765294668461",
+  "items": [
+    {
+      "id": 1,
+      "category": "Main Course",
+      "name": "Classic Beef Burger",
+      "price": 45,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=200&fit=crop",
+      "description": "Made with imported Australian Angus beef, paired with fresh lettuce, tomatoes, and secret sauce. Juicy in every bite.",
+      "ingredients": [
+        "Angus Beef Patty",
+        "Sesame Bun",
+        "Cheddar Cheese",
+        "Pickles",
+        "Secret Thousand Island Dressing"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        {
+          "user": "Adam",
+          "comment": "The patty is really thick and very juicy!"
+        },
+        {
+          "user": "Buss",
+          "comment": "A little salty, but good overall."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Drinks",
+      "name": "Iced Coke",
+      "price": 10,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=200&h=200&fit=crop",
+      "description": "Happy 'Otaku' Water (a common nickname), with ice and lemon. A must-have for summer.",
+      "ingredients": [
+        "Coca-Cola",
+        "Ice Cubes",
+        "Lemon Slice"
+      ],
+      "rating": 5,
+      "reviews": []
+    }
+  ],
+  "total": 55,
+  "status": "Completed",
+  "timestamp": "2025-12-09T15:37:48.461Z"
+}

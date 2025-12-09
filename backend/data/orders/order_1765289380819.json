@@ -1,0 +1,29 @@
+{
+  "id": "order_1765289380819",
+  "items": [
+    {
+      "id": 1,
+      "category": "Main Course",
+      "name": "Classic Beef Burger",
+      "price": 45,
+      "available": true
+    },
+    {
+      "id": 2,
+      "category": "Main Course",
+      "name": "Italian tomato pasta",
+      "price": 38,
+      "available": true
+    },
+    {
+      "id": 3,
+      "category": "Drinks",
+      "name": "Iced Coke",
+      "price": 10,
+      "available": true
+    }
+  ],
+  "total": 93,
+  "status": "Completed",
+  "timestamp": "2025-12-09T14:09:40.819Z"
+}

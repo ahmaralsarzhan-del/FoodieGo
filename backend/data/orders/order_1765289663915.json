@@ -1,0 +1,22 @@
+{
+  "id": "order_1765289663915",
+  "items": [
+    {
+      "id": 1,
+      "category": "Main Course",
+      "name": "Classic Beef Burger",
+      "price": 45,
+      "available": true
+    },
+    {
+      "id": 3,
+      "category": "Drinks",
+      "name": "Iced Coke",
+      "price": 10,
+      "available": true
+    }
+  ],
+  "total": 55,
+  "status": "Accepted",
+  "timestamp": "2025-12-09T14:14:23.915Z"
+}

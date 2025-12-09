@@ -1,0 +1,16 @@
+{
+  "id": "order_1765290237282",
+  "items": [
+    {
+      "id": 3,
+      "category": "Drinks",
+      "name": "Iced Coke",
+      "price": 10,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=200&h=200&fit=crop"
+    }
+  ],
+  "total": 10,
+  "status": "Accepted",
+  "timestamp": "2025-12-09T14:23:57.282Z"
+}

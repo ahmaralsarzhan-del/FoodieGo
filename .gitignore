@@ -1,0 +1,4 @@
+# .gitignore
+node_modules/
+backend/data/orders/*.json  # 不上传本地测试生成的真实订单
+.DS_Store

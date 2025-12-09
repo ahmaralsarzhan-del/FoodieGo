@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Classic Beef Burger (Test)",
+      "price": 45
+    },
+    {
+      "id": 3,
+      "name": "Iced Coke (Test)",
+      "price": 10
+    }
+  ],
+  "total": 55
+}
