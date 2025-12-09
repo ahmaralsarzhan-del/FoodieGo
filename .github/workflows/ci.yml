@@ -1,0 +1,50 @@
+name: FoodieGo CI/CD
+
+# 触发条件：当代码 push 到 main 分支时
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest # 使用 GitHub 提供的最新 Ubuntu 虚拟机
+
+    steps:
+    # 1. 拉取你的代码
+    - uses: actions/checkout@v3
+
+    # 2. 安装 Node.js 环境
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    # 3. 安装后端依赖
+    - name: Install Backend Dependencies
+      run: |
+        cd backend
+        npm install
+
+    # 4. 启动服务器并运行测试 (核心步骤)
+    - name: Start Server and Run Tests
+      run: |
+        # 进入 backend 目录，后台启动服务器 (& 符号表示后台运行)
+        cd backend
+        nohup node server.js > server.log 2>&1 &
+        
+        # 打印一下日志看有没有报错
+        echo "Server starting..."
+        
+        # 等待 5 秒确保服务器完全启动
+        sleep 5
+        
+        # 回到根目录，进入测试脚本目录
+        cd ../tests/shell
+        
+        # 赋予脚本执行权限
+        chmod +x test_api.sh
+        
+        # 运行测试！
+        ./test_api.sh
