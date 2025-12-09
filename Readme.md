@@ -6,7 +6,7 @@ It bridges a responsive Frontend Client with a Node.js Backend, featuring a file
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 👤 Customer Experience (Frontend)
 *   **Visual Menu**: Browse food items with high-quality images and dynamic price calculations.
@@ -28,20 +28,20 @@ It bridges a responsive Frontend Client with a Node.js Backend, featuring a file
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
 | **Frontend** | HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+), SweetAlert2 |
 | **Backend** | Node.js, Express.js, CORS, Body-Parser |
 | **Database** | JSON File System (Local Storage) |
-| **Testing** | Postman, Selenium WebDriver, cURL (Shell Scripts) |
+| **Testing** | cURL (Shell Scripts) |
 | **DevOps** | Jenkins, Git, GitHub |
 | **Design** | Draw.io (Architecture) |
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 foodiego/
