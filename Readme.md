@@ -35,7 +35,7 @@ It bridges a responsive Frontend Client with a Node.js Backend, featuring a file
 | **Frontend** | HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+), SweetAlert2 |
 | **Backend** | Node.js, Express.js, CORS, Body-Parser |
 | **Database** | JSON File System (Local Storage) |
-| **Testing** | Postman, Selenium WebDriver, cURL (Shell Scripts) |
+| **Testing** | cURL (Shell Scripts) |
 | **DevOps** | Jenkins, Git, GitHub |
 | **Design** | Draw.io (Architecture) |
 
